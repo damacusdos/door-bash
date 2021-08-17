@@ -8,7 +8,7 @@ const Header = (props) => {
     <Fragment>
       <header className={styles.header}>
         <h1>DoorBash</h1>
-        <HeaderCartButton />
+        <HeaderCartButton openModal={props.openModalHandler} />
       </header>
       <div className={styles["main-image"]}>
         <img src={foods} alt="food" />
