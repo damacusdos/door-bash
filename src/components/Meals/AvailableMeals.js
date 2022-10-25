@@ -32,6 +32,7 @@ const demoList = [
 const AvailableMeals = () => {
   const mealList = demoList.map((demo) => (
     <MealItem
+      id={demo.id}
       key={demo.id}
       name={demo.name}
       description={demo.description}
